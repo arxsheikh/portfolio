@@ -1,0 +1,183 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Product Sans', sans-serif;
+
+}
+
+/* Set the height of the body to full screen */
+body {
+    height: 100vh;
+    background-color: rgb(22 20 30);
+    color: white;
+    overflow-y: scroll;
+    scrollbar-width: none; /* hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* hide scrollbar for IE and Edge */
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+/* Style for the sidebar */
+.sidebar {
+    position: fixed;
+    /* Make the sidebar fixed */
+    top: 0;
+    left: 0;
+    width: 200px;
+    /* Set the width of the sidebar */
+    height: 100%;
+    /* Set the height of the sidebar to full screen */
+    background-color: #181818;
+    /* Set the background color */
+    padding: 20px;
+    /* Add some padding */
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar>a{
+    color: #ffffff;
+}
+/* Style for the main content area */
+.main-content {
+    margin-left: 200px;
+    /* Set the margin to the same width as the sidebar */
+    padding: 20px;
+    /* Add some padding */
+}
+
+/* Style for the heading */
+h1 {
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.backend {
+    position: relative;
+}
+
+.backend img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.btnget{
+    width: 200px;
+    height: 45px;
+    background-color: rgb(112, 205, 81);
+}
+.container {
+
+    height: 600px;
+    /* other styles */
+}
+
+.container>div {
+    padding-top: 30px;
+    font-size: 22px;
+}
+
+.skill-section {
+    margin-top: 12px;
+    text-align: center;
+}
+
+#Skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Skill {
+    padding: 12px;
+    width: 300px;
+    background-color: white;
+    color: #000;
+    margin: 10px;
+}
+.Skill:hover{
+    box-shadow: rgb(24 239 60) -1px -8px 0px 0px;
+}
+
+.texts{
+    text-align: center;
+    line-height: 0.2;
+    margin-top: 20px;
+}
+
+.Starter{
+    padding-bottom: 12px;
+}
+
+.contact-sec{
+    display: flex;
+}
+.contact-sec>a>img {
+    width: 40px;
+    height: 40px;
+    margin: 12px;
+    border-radius: 4px;
+}
+
+.nav-m{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    margin-left: 200px;
+}
+.nav-m>a>img{
+    width: 30px;
+    height: 30px;
+}
+.xd{
+    padding-bottom: 120px;
+}

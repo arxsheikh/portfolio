@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+
+    .main-content {
+        margin-left: 0px;
+    }
+
+    .skill-section {
+        margin-top: 327px;
+    }
+    .texts {
+        text-align: center;
+        line-height: 1;
+        margin-top: 20px;
+    }
+    .container>div {
+        padding-top: 30px;
+        font-size: 19px;
+    }
+    .nav-m{
+        margin-left: 0px;
+    }
+}
